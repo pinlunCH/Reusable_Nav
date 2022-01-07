@@ -12,7 +12,9 @@ CSS
 .nav-toggle.off{
     display: none;
 }
-.nav-toggle{}
+.nav-toggle{
+    display: block;
+}
 .nav-close{
     display: none;
 }
