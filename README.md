@@ -9,7 +9,6 @@ Need to be modify:
 
 CSS
 ```
-{
 .nav-toggle.off{
     display: none;
 }
