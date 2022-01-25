@@ -1,7 +1,7 @@
 NavMenu = (show, div, close) => {
-    const showBtn = document.querySelector('.' + show);
-        navDiv = document.querySelector('.' + div);
-        closeBtn = document.querySelector('.' + close);
+    let showBtn = document.querySelector('.' + show);
+    let navDiv = document.querySelector('.' + div);
+    let closeBtn = document.querySelector('.' + close);
 
     showBtn.addEventListener('click', () => {
         showBtn.classList.add('active');
